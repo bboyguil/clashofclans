@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 600px;
+    margin: 10px auto;
+    box-shadow: 3px 2px 20px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+}
+th, td{
+    border: 1px solid #888;
+    text-align: right;
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+th{
+    text-align: center;
+    background: #ffca28;
+    box-sizing: border-box;
+}
+tr{
+    background: #C8E6C9;
+    box-sizing: border-box;
+}
+tr:nth-child(even){
+    background: #FFCDD2;
+}
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    padding:0;
+    margin: 0;
+}
+.imagens{
+    background: #efefef;
+    padding:0;
+    margin: 5px;
+}
+figure, figcaption{
+    margin: 0;
+}

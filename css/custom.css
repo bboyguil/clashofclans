@@ -1,0 +1,80 @@
+body{
+    background: #fff url(../img/background.jpg) top center repeat;
+}
+h2{
+    font-size: 2em!important;
+}
+/* formulário */
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form legend{
+    font-size: 1.2em;
+}
+select{
+    background: blue!important;
+    color: blue!important;
+}
+/* Imagens */
+.img-tropa{
+    margin: 5px auto 10px;
+    display:block;
+}
+.img-mini{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+figure.niveis{
+    display:inline-block;
+    margin:5px;
+}
+figure.niveis figcaption{
+    color:#555;
+    text-align: center;
+}
+/* Tabela de Dados */
+table thead, table caption{
+    background: #ffa726;
+    color: #fff;;
+}
+table caption{
+    display: table-caption;
+    border-bottom: 1px solid #333;
+    font-size: 1.3em;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #ffa726!important;
+}
+
+/* ìcone menu */
+.icon-menu{
+    position: relative;
+    top: 13px;
+    left: 10px;
+    width: 6px;
+    height: 35px;
+    background: #fff;
+}
+.icon-menu:after, .icon-menu:before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 13px;
+    width: 6px;
+    height: 35px;
+    background: #fff;
+    z-index: 2
+}
+.icon-menu:before{
+    left: 13px;
+}
+
+
+
